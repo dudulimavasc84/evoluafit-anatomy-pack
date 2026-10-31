@@ -9,3 +9,8 @@ Cadeia de processamento (reproduzível, ver `pipeline/`):
 6. Camadas intermediárias (PNG RGBA) em `layers/`.
 
 Limitações conhecidas: o vasto intermédio e músculos profundos (supraespinhal, subescapular, transverso do abdome, iliopsoas) não têm camada própria; a porção clavicular/esternocostal do peitoral não é destacada separadamente.
+
+## v1.0.1
+- Mapas ajustados após auditoria: Leg Press/Agachamento/Stiff (glúteo como secundário quando o quadríceps ou isquiotibiais dominam), Rosca Inversa no Cabo (braquiorradial, braquial e extensores do antebraço como principais), Pullover Articulado (dorsal + redondo maior).
+- Novos campos por exercício: `technical_validation` (separado de `reviewed`, que continua false), `pending_kinds`, `visibility_notes`.
+- v1.0.0 permanece intacta.

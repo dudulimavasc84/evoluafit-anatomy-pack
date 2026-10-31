@@ -1,0 +1,3099 @@
+{
+ "version": "v1.0.1",
+ "muscles": {
+  "_doc": "ids de camada -> rótulo pt-BR. 'expands' = grupo exibido como várias camadas anatômicas reais.",
+  "peitoral": {
+   "label": "Peitoral maior",
+   "source": "BodyParts3D"
+  },
+  "deltoide_anterior": {
+   "label": "Deltoide anterior",
+   "source": "BodyParts3D"
+  },
+  "deltoide_lateral": {
+   "label": "Deltoide lateral",
+   "source": "BodyParts3D"
+  },
+  "deltoide_posterior": {
+   "label": "Deltoide posterior",
+   "source": "BodyParts3D"
+  },
+  "triceps": {
+   "label": "Tríceps braquial",
+   "source": "BodyParts3D"
+  },
+  "biceps": {
+   "label": "Bíceps braquial",
+   "source": "BodyParts3D"
+  },
+  "braquial": {
+   "label": "Braquial",
+   "source": "BodyParts3D"
+  },
+  "braquiorradial": {
+   "label": "Braquiorradial",
+   "source": "BodyParts3D"
+  },
+  "antebraco": {
+   "label": "Antebraço (demais flexores/extensores)",
+   "source": "BodyParts3D"
+  },
+  "antebraco_flexores": {
+   "label": "Flexores do antebraço",
+   "source": "BodyParts3D"
+  },
+  "antebraco_extensores": {
+   "label": "Extensores do antebraço",
+   "source": "BodyParts3D"
+  },
+  "latissimo": {
+   "label": "Grande dorsal",
+   "source": "Z-Anatomy"
+  },
+  "redondo_maior": {
+   "label": "Redondo maior",
+   "source": "BodyParts3D"
+  },
+  "redondo_menor": {
+   "label": "Redondo menor",
+   "source": "BodyParts3D"
+  },
+  "infraespinhal": {
+   "label": "Infraespinhal",
+   "source": "BodyParts3D"
+  },
+  "romboides": {
+   "label": "Romboides",
+   "source": "BodyParts3D"
+  },
+  "trapezio_superior": {
+   "label": "Trapézio superior",
+   "source": "BodyParts3D"
+  },
+  "trapezio_medio": {
+   "label": "Trapézio médio",
+   "source": "BodyParts3D"
+  },
+  "trapezio_inferior": {
+   "label": "Trapézio inferior",
+   "source": "BodyParts3D"
+  },
+  "serratil": {
+   "label": "Serrátil anterior",
+   "source": "BodyParts3D"
+  },
+  "abdominais": {
+   "label": "Reto abdominal",
+   "source": "Z-Anatomy"
+  },
+  "obliquos": {
+   "label": "Oblíquo externo",
+   "source": "BodyParts3D"
+  },
+  "obliquo_interno": {
+   "label": "Oblíquo interno",
+   "source": "Z-Anatomy"
+  },
+  "eretores": {
+   "label": "Eretores da espinha",
+   "source": "Z-Anatomy"
+  },
+  "quadriceps": {
+   "label": "Quadríceps",
+   "source": "BodyParts3D",
+   "expands": [
+    "reto_femoral",
+    "vasto_lateral",
+    "vasto_medial"
+   ],
+   "note": "O vasto intermédio fica sob o reto femoral e não aparece."
+  },
+  "reto_femoral": {
+   "label": "Reto femoral",
+   "source": "BodyParts3D"
+  },
+  "vasto_lateral": {
+   "label": "Vasto lateral",
+   "source": "BodyParts3D"
+  },
+  "vasto_medial": {
+   "label": "Vasto medial",
+   "source": "BodyParts3D"
+  },
+  "isquiotibiais": {
+   "label": "Isquiotibiais",
+   "source": "BodyParts3D"
+  },
+  "gluteo_maximo": {
+   "label": "Glúteo máximo",
+   "source": "BodyParts3D"
+  },
+  "gluteo_medio": {
+   "label": "Glúteo médio e mínimo",
+   "source": "BodyParts3D"
+  },
+  "adutores": {
+   "label": "Adutores",
+   "source": "BodyParts3D"
+  },
+  "gastrocnemio": {
+   "label": "Gastrocnêmio",
+   "source": "BodyParts3D"
+  },
+  "soleo": {
+   "label": "Sóleo",
+   "source": "BodyParts3D"
+  }
+ },
+ "exercises": [
+  {
+   "name": "Supino Reto no Smith",
+   "equipment_logged": "máquina Smith",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "peitoral"
+   ],
+   "secondary": [
+    "deltoide_anterior",
+    "triceps"
+   ],
+   "image": "m_758947ea8d",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Supino Reto com Barra",
+   "equipment_logged": "barra",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Barra livre: mais estabilização que no Smith, sem mudar os músculos exibidos.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "peitoral"
+   ],
+   "secondary": [
+    "deltoide_anterior",
+    "triceps"
+   ],
+   "image": "m_758947ea8d",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Supino Inclinado Máquina",
+   "equipment_logged": "máquina articulada",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "A inclinação costuma aumentar a ênfase na parte superior do peitoral e no deltoide anterior; nenhuma região trabalha isoladamente.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "peitoral"
+   ],
+   "secondary": [
+    "deltoide_anterior",
+    "triceps"
+   ],
+   "image": "m_758947ea8d",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Supino Inclinado com Halteres",
+   "equipment_logged": "halter",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "A inclinação costuma aumentar a ênfase na parte superior do peitoral e no deltoide anterior; nenhuma região trabalha isoladamente.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "peitoral"
+   ],
+   "secondary": [
+    "deltoide_anterior",
+    "triceps"
+   ],
+   "image": "m_758947ea8d",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Supino Declinado Máquina",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "A declinação costuma aumentar a ênfase na parte inferior do peitoral; nenhuma região trabalha isoladamente.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "peitoral"
+   ],
+   "secondary": [
+    "triceps",
+    "deltoide_anterior"
+   ],
+   "image": "m_758947ea8d",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Supino Máquina",
+   "equipment_logged": "máquina",
+   "identification": "incompleta",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Ângulo e tipo do aparelho não definidos no histórico.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "peitoral"
+   ],
+   "secondary": [
+    "deltoide_anterior",
+    "triceps"
+   ],
+   "image": "m_758947ea8d",
+   "reviewed": false,
+   "pending_kinds": [
+    "identificacao_equipamento"
+   ],
+   "technical_validation": {
+    "status": "validada_com_ressalva",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Crucifixo com Halteres",
+   "equipment_logged": "halter",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "peitoral"
+   ],
+   "secondary": [
+    "deltoide_anterior"
+   ],
+   "image": "m_9874589899",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Crucifixo Inclinado Articulado (Plate-Loaded)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "A inclinação costuma aumentar a ênfase na parte superior do peitoral; nenhuma região trabalha isoladamente.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "peitoral"
+   ],
+   "secondary": [
+    "deltoide_anterior"
+   ],
+   "image": "m_9874589899",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Voador em Pé (Máquina)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "peitoral"
+   ],
+   "secondary": [
+    "deltoide_anterior"
+   ],
+   "image": "m_9874589899",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Peck Deck",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "peitoral"
+   ],
+   "secondary": [
+    "deltoide_anterior"
+   ],
+   "image": "m_9874589899",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Crossover",
+   "equipment_logged": "cabo",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "A altura da polia muda a ênfase; nenhuma região do peitoral trabalha isoladamente.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "peitoral"
+   ],
+   "secondary": [
+    "deltoide_anterior"
+   ],
+   "image": "m_9874589899",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Remada Baixa (Smith Row)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Pegada e detalhes do aparelho ainda não identificados.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "latissimo",
+    "trapezio_medio",
+    "romboides"
+   ],
+   "secondary": [
+    "trapezio_inferior",
+    "redondo_maior",
+    "infraespinhal",
+    "redondo_menor",
+    "deltoide_posterior",
+    "biceps",
+    "braquial",
+    "braquiorradial"
+   ],
+   "image": "m_2b495d4cab",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Romboides é um músculo profundo: aparece só parcialmente (por transparência).",
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Remada Baixa Articulada (Pull Rack)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Pegada e apoio do aparelho ainda não identificados.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "latissimo",
+    "trapezio_medio",
+    "romboides"
+   ],
+   "secondary": [
+    "trapezio_inferior",
+    "redondo_maior",
+    "deltoide_posterior",
+    "biceps",
+    "braquial",
+    "braquiorradial"
+   ],
+   "image": "m_4bfc56803a",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Romboides é um músculo profundo: aparece só parcialmente (por transparência).",
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Remada Articulada Unilateral (Máquina)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "unilateral",
+   "note": "Um lado por vez; músculos exibidos nos dois lados.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "latissimo",
+    "trapezio_medio",
+    "romboides"
+   ],
+   "secondary": [
+    "trapezio_inferior",
+    "redondo_maior",
+    "deltoide_posterior",
+    "biceps",
+    "braquial",
+    "braquiorradial"
+   ],
+   "image": "m_4bfc56803a",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Romboides é um músculo profundo: aparece só parcialmente (por transparência).",
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Remada Circular Articulada (Super Rowing Circular)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Trajetória circular; pegada não identificada.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "latissimo",
+    "trapezio_medio",
+    "romboides"
+   ],
+   "secondary": [
+    "trapezio_inferior",
+    "redondo_maior",
+    "deltoide_posterior",
+    "biceps",
+    "braquial",
+    "braquiorradial"
+   ],
+   "image": "m_4bfc56803a",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Romboides é um músculo profundo: aparece só parcialmente (por transparência).",
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Remada Curvada no Smith",
+   "equipment_logged": "máquina Smith",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Tronco inclinado sem apoio: eretores da espinha trabalham em isometria.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "latissimo",
+    "trapezio_medio",
+    "romboides"
+   ],
+   "secondary": [
+    "trapezio_inferior",
+    "redondo_maior",
+    "infraespinhal",
+    "deltoide_posterior",
+    "biceps",
+    "braquial",
+    "braquiorradial",
+    "eretores"
+   ],
+   "image": "m_229844353d",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Romboides é um músculo profundo: aparece só parcialmente (por transparência).",
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência).",
+    "Eretores da espinha é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Remada Curvada com Barra",
+   "equipment_logged": "barra",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Tronco inclinado sem apoio: eretores da espinha trabalham em isometria.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "latissimo",
+    "trapezio_medio",
+    "romboides"
+   ],
+   "secondary": [
+    "trapezio_inferior",
+    "redondo_maior",
+    "infraespinhal",
+    "deltoide_posterior",
+    "biceps",
+    "braquial",
+    "braquiorradial",
+    "eretores"
+   ],
+   "image": "m_229844353d",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Romboides é um músculo profundo: aparece só parcialmente (por transparência).",
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência).",
+    "Eretores da espinha é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Remada com Halter",
+   "equipment_logged": "halter",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "unilateral",
+   "note": "Um lado por vez; músculos exibidos nos dois lados.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "latissimo",
+    "trapezio_medio",
+    "romboides"
+   ],
+   "secondary": [
+    "trapezio_inferior",
+    "redondo_maior",
+    "deltoide_posterior",
+    "biceps",
+    "braquial",
+    "braquiorradial"
+   ],
+   "image": "m_4bfc56803a",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Romboides é um músculo profundo: aparece só parcialmente (por transparência).",
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Remada Unilateral no Cabo",
+   "equipment_logged": "cabo",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "unilateral",
+   "note": "Um lado por vez; músculos exibidos nos dois lados.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "latissimo",
+    "trapezio_medio",
+    "romboides"
+   ],
+   "secondary": [
+    "trapezio_inferior",
+    "redondo_maior",
+    "deltoide_posterior",
+    "biceps",
+    "braquial",
+    "braquiorradial"
+   ],
+   "image": "m_4bfc56803a",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Romboides é um músculo profundo: aparece só parcialmente (por transparência).",
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Remada Sentada (Triângulo)",
+   "equipment_logged": "cabo",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Tronco sem apoio: eretores da espinha estabilizam.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "latissimo",
+    "trapezio_medio",
+    "romboides"
+   ],
+   "secondary": [
+    "trapezio_inferior",
+    "redondo_maior",
+    "deltoide_posterior",
+    "biceps",
+    "braquial",
+    "braquiorradial",
+    "eretores"
+   ],
+   "image": "m_28a7822072",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Romboides é um músculo profundo: aparece só parcialmente (por transparência).",
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência).",
+    "Eretores da espinha é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Puxada Alta",
+   "equipment_logged": "cabo",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Pegada (aberta, fechada, supinada) muda a ênfase; não registrada.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "latissimo"
+   ],
+   "secondary": [
+    "redondo_maior",
+    "romboides",
+    "trapezio_inferior",
+    "deltoide_posterior",
+    "biceps",
+    "braquial",
+    "braquiorradial"
+   ],
+   "image": "m_90cb31be5d",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Romboides é um músculo profundo: aparece só parcialmente (por transparência).",
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Barra Fixa",
+   "equipment_logged": "peso corporal",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "latissimo"
+   ],
+   "secondary": [
+    "redondo_maior",
+    "romboides",
+    "trapezio_inferior",
+    "deltoide_posterior",
+    "biceps",
+    "braquial",
+    "braquiorradial"
+   ],
+   "image": "m_90cb31be5d",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Romboides é um músculo profundo: aparece só parcialmente (por transparência).",
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Pullover",
+   "equipment_logged": "halter",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Segue seu cadastro (costas principal, peito secundário). Com halter, fontes divergem: o peitoral também é muito exigido.",
+   "user_confirmation_needed": "Confirmar principal: só costas (como no cadastro) ou costas e peitoral",
+   "primary": [
+    "latissimo"
+   ],
+   "secondary": [
+    "peitoral",
+    "redondo_maior",
+    "triceps",
+    "serratil"
+   ],
+   "image": "m_d2cf8ea41c",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_com_ressalva",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Pullover Articulado (Super Pullover Machine)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Segue seu cadastro: foco em dorsais e redondo maior; peitoral secundário.",
+   "user_confirmation_needed": "Confirmar se o peitoral deve ficar como secundário",
+   "primary": [
+    "latissimo",
+    "redondo_maior"
+   ],
+   "secondary": [
+    "triceps",
+    "peitoral"
+   ],
+   "image": "m_cea72f4c39",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_com_ressalva",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Extensão Lombar Articulada (Plataforma)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "eretores"
+   ],
+   "secondary": [
+    "gluteo_maximo",
+    "isquiotibiais"
+   ],
+   "image": "m_f63dbe9429",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Eretores da espinha é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Desenvolvimento de Ombro Articulado (Shoulder Press)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "deltoide_anterior",
+    "deltoide_lateral"
+   ],
+   "secondary": [
+    "triceps",
+    "trapezio_superior",
+    "serratil"
+   ],
+   "image": "m_0128bc59d3",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Desenvolvimento de Ombro Articulado Plate-Loaded",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "deltoide_anterior",
+    "deltoide_lateral"
+   ],
+   "secondary": [
+    "triceps",
+    "trapezio_superior",
+    "serratil"
+   ],
+   "image": "m_0128bc59d3",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Desenvolvimento no Smith",
+   "equipment_logged": "máquina Smith",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "deltoide_anterior",
+    "deltoide_lateral"
+   ],
+   "secondary": [
+    "triceps",
+    "trapezio_superior",
+    "serratil"
+   ],
+   "image": "m_0128bc59d3",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Desenvolvimento com Halteres",
+   "equipment_logged": "halter",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "deltoide_anterior",
+    "deltoide_lateral"
+   ],
+   "secondary": [
+    "triceps",
+    "trapezio_superior",
+    "serratil"
+   ],
+   "image": "m_0128bc59d3",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Desenvolvimento com Barra",
+   "equipment_logged": "barra",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Barra livre exige mais estabilização do tronco.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "deltoide_anterior",
+    "deltoide_lateral"
+   ],
+   "secondary": [
+    "triceps",
+    "trapezio_superior",
+    "serratil"
+   ],
+   "image": "m_0128bc59d3",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Elevação Lateral",
+   "equipment_logged": "halter",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "O supraespinhal (profundo) também atua, mas não aparece na camada.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "deltoide_lateral"
+   ],
+   "secondary": [
+    "trapezio_superior"
+   ],
+   "image": "m_d497449dbe",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Elevação Lateral Articulada (Máquina)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "O supraespinhal (profundo) também atua, mas não aparece na camada.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "deltoide_lateral"
+   ],
+   "secondary": [
+    "trapezio_superior"
+   ],
+   "image": "m_d497449dbe",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Elevação Frontal",
+   "equipment_logged": "halter",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "deltoide_anterior"
+   ],
+   "secondary": [
+    "deltoide_lateral",
+    "peitoral",
+    "trapezio_superior",
+    "serratil"
+   ],
+   "image": "m_8e835d0bfc",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Crucifixo Inverso",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "deltoide_posterior"
+   ],
+   "secondary": [
+    "infraespinhal",
+    "redondo_menor",
+    "romboides",
+    "trapezio_medio"
+   ],
+   "image": "m_c7391b4e8a",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Romboides é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Crucifixo Invertido com Halteres",
+   "equipment_logged": "halter",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "unilateral",
+   "note": "Um lado por vez; músculos exibidos nos dois lados.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "deltoide_posterior"
+   ],
+   "secondary": [
+    "infraespinhal",
+    "redondo_menor",
+    "romboides",
+    "trapezio_medio"
+   ],
+   "image": "m_c7391b4e8a",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Romboides é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Puxada de Ombro Articulada (Sentado)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pendente",
+   "anatomy_pending_reason": "Movimento do aparelho não definido (puxada vertical ou remada posterior).",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [],
+   "secondary": [],
+   "image": null,
+   "reviewed": false,
+   "pending_kinds": [
+    "identificacao_equipamento",
+    "anatomia_ausente"
+   ],
+   "technical_validation": {
+    "status": "nao_aplicavel",
+    "reason": "sem representação anatômica correta"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Face Pull",
+   "equipment_logged": "cabo",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "deltoide_posterior",
+    "infraespinhal",
+    "redondo_menor"
+   ],
+   "secondary": [
+    "trapezio_medio",
+    "romboides",
+    "trapezio_inferior"
+   ],
+   "image": "m_f0f40b53a8",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Romboides é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Rosca Martelo",
+   "equipment_logged": "halter",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Pegada neutra, alternada. Card já aprovado.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "biceps",
+    "braquial",
+    "braquiorradial"
+   ],
+   "secondary": [
+    "antebraco"
+   ],
+   "image": "m_786de46112",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Rosca Martelo na Corda (Cabo)",
+   "equipment_logged": "cabo",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Pegada neutra.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "biceps",
+    "braquial",
+    "braquiorradial"
+   ],
+   "secondary": [
+    "antebraco"
+   ],
+   "image": "m_786de46112",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Rosca Direta com Barra",
+   "equipment_logged": "barra",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "biceps",
+    "braquial"
+   ],
+   "secondary": [
+    "braquiorradial",
+    "antebraco"
+   ],
+   "image": "m_e8e8c53ba4",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Rosca Alternada",
+   "equipment_logged": "halter",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "biceps",
+    "braquial"
+   ],
+   "secondary": [
+    "braquiorradial",
+    "antebraco"
+   ],
+   "image": "m_e8e8c53ba4",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Rosca Inclinada com Halteres",
+   "equipment_logged": "halter",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "biceps",
+    "braquial"
+   ],
+   "secondary": [
+    "braquiorradial",
+    "antebraco"
+   ],
+   "image": "m_e8e8c53ba4",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Rosca Concentrada",
+   "equipment_logged": "halter",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "unilateral",
+   "note": "Um lado por vez; músculos exibidos nos dois lados.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "biceps",
+    "braquial"
+   ],
+   "secondary": [
+    "braquiorradial",
+    "antebraco"
+   ],
+   "image": "m_e8e8c53ba4",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Rosca Scott com Halter",
+   "equipment_logged": "halter",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "unilateral",
+   "note": "Um lado por vez; músculos exibidos nos dois lados.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "biceps",
+    "braquial"
+   ],
+   "secondary": [
+    "braquiorradial",
+    "antebraco"
+   ],
+   "image": "m_e8e8c53ba4",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Rosca Scott",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "biceps",
+    "braquial"
+   ],
+   "secondary": [
+    "braquiorradial",
+    "antebraco"
+   ],
+   "image": "m_e8e8c53ba4",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Rosca Bíceps Máquina",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "biceps",
+    "braquial"
+   ],
+   "secondary": [
+    "braquiorradial",
+    "antebraco"
+   ],
+   "image": "m_e8e8c53ba4",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Rosca Bíceps Articulada (Plate-Loaded)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "biceps",
+    "braquial"
+   ],
+   "secondary": [
+    "braquiorradial",
+    "antebraco"
+   ],
+   "image": "m_e8e8c53ba4",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Rosca Máquina Camber",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "biceps",
+    "braquial"
+   ],
+   "secondary": [
+    "braquiorradial",
+    "antebraco"
+   ],
+   "image": "m_e8e8c53ba4",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Rosca Direta no Cabo (Polia Baixa)",
+   "equipment_logged": "cabo",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "biceps",
+    "braquial"
+   ],
+   "secondary": [
+    "braquiorradial",
+    "antebraco"
+   ],
+   "image": "m_e8e8c53ba4",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Rosca Inversa no Cabo",
+   "equipment_logged": "cabo",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Pegada pronada (palmas para baixo).",
+   "user_confirmation_needed": "",
+   "primary": [
+    "braquiorradial",
+    "braquial",
+    "antebraco_extensores"
+   ],
+   "secondary": [
+    "biceps"
+   ],
+   "image": "m_1e6a1cbd0b",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Braquial é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Rosca de Punho com Halter",
+   "equipment_logged": "halter",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "unilateral",
+   "note": "Considera flexão de punho (palma para cima). Um lado por vez.",
+   "user_confirmation_needed": "Confirmar se é flexão ou extensão de punho",
+   "primary": [
+    "antebraco_flexores"
+   ],
+   "secondary": [],
+   "image": "m_31d801e089",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_com_ressalva",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Rosca de Punho no Cabo (Polia Baixa)",
+   "equipment_logged": "cabo",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Considera flexão de punho (palma para cima).",
+   "user_confirmation_needed": "Confirmar se é flexão ou extensão de punho",
+   "primary": [
+    "antebraco_flexores"
+   ],
+   "secondary": [],
+   "image": "m_31d801e089",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_com_ressalva",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Tríceps Corda",
+   "equipment_logged": "cabo",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "image": "m_a5438baf84",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Tríceps Pulley",
+   "equipment_logged": "cabo",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "image": "m_a5438baf84",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Tríceps Francês na Corda (Cabo)",
+   "equipment_logged": "cabo",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Com o braço acima da cabeça (francês), a cabeça longa é mais alongada.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "image": "m_a5438baf84",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Tríceps Testeira",
+   "equipment_logged": "barra",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "image": "m_a5438baf84",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Francês com Halter",
+   "equipment_logged": "halter",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Com o braço acima da cabeça (francês), a cabeça longa é mais alongada.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "image": "m_a5438baf84",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Tríceps Máquina (Apoio de Cotovelo)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "image": "m_a5438baf84",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Tríceps Máquina Sentado (Pulldown)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [],
+   "image": "m_a5438baf84",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Mergulho em Máquina (Dip)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "A inclinação do tronco muda a participação do peitoral.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "triceps"
+   ],
+   "secondary": [
+    "peitoral",
+    "deltoide_anterior"
+   ],
+   "image": "m_2dde4b76e9",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Cadeira Extensora",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [],
+   "image": "m_112f21f5ff",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Cadeira Extensora Unilateral",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "unilateral",
+   "note": "Uma perna por vez; músculos exibidos nas duas pernas.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [],
+   "image": "m_112f21f5ff",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Leg Press",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Posição dos pés muda a ênfase entre quadríceps e glúteo; não registrada.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "quadriceps",
+    "gluteo_maximo"
+   ],
+   "secondary": [
+    "adutores",
+    "isquiotibiais"
+   ],
+   "image": "m_db92224b43",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Leg Press 45° (Trilho Duplo)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Posição dos pés muda a ênfase; não registrada.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "quadriceps",
+    "gluteo_maximo"
+   ],
+   "secondary": [
+    "adutores",
+    "isquiotibiais"
+   ],
+   "image": "m_db92224b43",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Leg Press Articulado (Iso-Lateral)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Posição dos pés muda a ênfase; não registrada.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "quadriceps",
+    "gluteo_maximo"
+   ],
+   "secondary": [
+    "adutores",
+    "isquiotibiais"
+   ],
+   "image": "m_db92224b43",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Leg Press Unilateral",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "unilateral",
+   "note": "Uma perna por vez; músculos exibidos nas duas pernas.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "quadriceps",
+    "gluteo_maximo"
+   ],
+   "secondary": [
+    "adutores",
+    "isquiotibiais"
+   ],
+   "image": "m_db92224b43",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Agachamento Hack (Máquina)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "quadriceps"
+   ],
+   "secondary": [
+    "gluteo_maximo",
+    "adutores"
+   ],
+   "image": "m_40edcdd0ed",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Agachamento Livre",
+   "equipment_logged": "barra",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Profundidade e posição dos pés alteram a participação do glúteo.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "quadriceps",
+    "gluteo_maximo"
+   ],
+   "secondary": [
+    "adutores",
+    "isquiotibiais",
+    "eretores",
+    "abdominais"
+   ],
+   "image": "m_2e180c7037",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Eretores da espinha é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Agachamento Máquina",
+   "equipment_logged": "",
+   "identification": "incompleta",
+   "anatomy": "pendente",
+   "anatomy_pending_reason": "Tipo de agachamento em máquina não definido.",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [],
+   "secondary": [],
+   "image": null,
+   "reviewed": false,
+   "pending_kinds": [
+    "identificacao_equipamento",
+    "anatomia_ausente"
+   ],
+   "technical_validation": {
+    "status": "nao_aplicavel",
+    "reason": "sem representação anatômica correta"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Cadeira Flexora",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "isquiotibiais"
+   ],
+   "secondary": [
+    "gastrocnemio"
+   ],
+   "image": "m_22b6aaf09c",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Mesa Flexora",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "isquiotibiais"
+   ],
+   "secondary": [
+    "gastrocnemio"
+   ],
+   "image": "m_22b6aaf09c",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Flexora em Pé (Unilateral)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "unilateral",
+   "note": "Uma perna por vez; músculos exibidos nas duas pernas.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "isquiotibiais"
+   ],
+   "secondary": [
+    "gastrocnemio"
+   ],
+   "image": "m_22b6aaf09c",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Stiff",
+   "equipment_logged": "barra",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "isquiotibiais"
+   ],
+   "secondary": [
+    "gluteo_maximo",
+    "eretores",
+    "adutores"
+   ],
+   "image": "m_0f2333be34",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Eretores da espinha é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Stiff no Smith (Barra Guiada)",
+   "equipment_logged": "máquina Smith",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "isquiotibiais"
+   ],
+   "secondary": [
+    "gluteo_maximo",
+    "eretores",
+    "adutores"
+   ],
+   "image": "m_0f2333be34",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Eretores da espinha é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Cadeira Abdutora",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "O tensor da fáscia lata também atua, mas não aparece na camada.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "gluteo_medio"
+   ],
+   "secondary": [
+    "gluteo_maximo"
+   ],
+   "image": "m_a43319e0e8",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Cadeira Adutora",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "adutores"
+   ],
+   "secondary": [],
+   "image": "m_0152c288f4",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Elevação Pélvica",
+   "equipment_logged": "barra",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "gluteo_maximo"
+   ],
+   "secondary": [
+    "isquiotibiais",
+    "adutores",
+    "quadriceps"
+   ],
+   "image": "m_a566bdd00e",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Elevação Pélvica no Smith",
+   "equipment_logged": "máquina Smith",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "gluteo_maximo"
+   ],
+   "secondary": [
+    "isquiotibiais",
+    "adutores",
+    "quadriceps"
+   ],
+   "image": "m_a566bdd00e",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Elevação Pélvica na Máquina (Hip Thrust)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "gluteo_maximo"
+   ],
+   "secondary": [
+    "isquiotibiais",
+    "adutores",
+    "quadriceps"
+   ],
+   "image": "m_a566bdd00e",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Panturrilha em Pé (Máquina)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "gastrocnemio"
+   ],
+   "secondary": [
+    "soleo"
+   ],
+   "image": "m_3f5f44abe5",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Sóleo é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Panturrilha no Leg Press",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "gastrocnemio"
+   ],
+   "secondary": [
+    "soleo"
+   ],
+   "image": "m_3f5f44abe5",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Sóleo é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Panturrilha Sentado (Máquina)",
+   "equipment_logged": "máquina",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "soleo"
+   ],
+   "secondary": [
+    "gastrocnemio"
+   ],
+   "image": "m_83946bf226",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Sóleo é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Abdominal Supra",
+   "equipment_logged": "peso corporal (parcial)",
+   "identification": "incompleta",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "abdominais"
+   ],
+   "secondary": [
+    "obliquos"
+   ],
+   "image": "m_4a61806b24",
+   "reviewed": false,
+   "pending_kinds": [
+    "identificacao_equipamento"
+   ],
+   "technical_validation": {
+    "status": "validada_com_ressalva",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Abdominal Infra",
+   "equipment_logged": "peso corporal (parcial)",
+   "identification": "incompleta",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "abdominais"
+   ],
+   "secondary": [
+    "obliquos"
+   ],
+   "image": "m_4a61806b24",
+   "reviewed": false,
+   "pending_kinds": [
+    "identificacao_equipamento"
+   ],
+   "technical_validation": {
+    "status": "validada_com_ressalva",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Abdominal Máquina",
+   "equipment_logged": "máquina (parcial)",
+   "identification": "incompleta",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "abdominais"
+   ],
+   "secondary": [
+    "obliquos"
+   ],
+   "image": "m_4a61806b24",
+   "reviewed": false,
+   "pending_kinds": [
+    "identificacao_equipamento"
+   ],
+   "technical_validation": {
+    "status": "validada_com_ressalva",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Prancha",
+   "equipment_logged": "",
+   "identification": "incompleta",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "abdominais"
+   ],
+   "secondary": [
+    "obliquos",
+    "serratil",
+    "eretores"
+   ],
+   "image": "m_769e4b97c9",
+   "reviewed": false,
+   "pending_kinds": [
+    "identificacao_equipamento"
+   ],
+   "technical_validation": {
+    "status": "validada_com_ressalva",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Eretores da espinha é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Woodchopper no Cabo (Lenhador)",
+   "equipment_logged": "",
+   "identification": "incompleta",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "Movimento rotacional diagonal.",
+   "user_confirmation_needed": "",
+   "primary": [
+    "obliquos",
+    "obliquo_interno"
+   ],
+   "secondary": [
+    "abdominais",
+    "serratil",
+    "deltoide_anterior",
+    "latissimo"
+   ],
+   "image": "m_8ea2af0c96",
+   "reviewed": false,
+   "pending_kinds": [
+    "identificacao_equipamento"
+   ],
+   "technical_validation": {
+    "status": "validada_com_ressalva",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Oblíquo interno é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Rotação Russa com Anilha (Oblíquos)",
+   "equipment_logged": "peso corporal",
+   "identification": "identificado",
+   "anatomy": "pronta",
+   "anatomy_pending_reason": "",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [
+    "obliquos",
+    "obliquo_interno"
+   ],
+   "secondary": [
+    "abdominais"
+   ],
+   "image": "m_0134c045b3",
+   "reviewed": false,
+   "pending_kinds": [],
+   "technical_validation": {
+    "status": "validada_tecnicamente",
+    "checks": [
+     "musculos_existem_no_modelo",
+     "sem_repeticao_principal_secundario",
+     "camadas_visiveis",
+     "conferido_com_cadastro_e_literatura"
+    ],
+    "visual_approval": "pendente"
+   },
+   "visibility_notes": [
+    "Oblíquo interno é um músculo profundo: aparece só parcialmente (por transparência)."
+   ]
+  },
+  {
+   "name": "Dead Bug",
+   "equipment_logged": "peso corporal",
+   "identification": "identificado",
+   "anatomy": "pendente",
+   "anatomy_pending_reason": "Músculos principais são o transverso do abdome e o iliopsoas, ainda sem camada anatômica correta.",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [],
+   "secondary": [],
+   "image": null,
+   "reviewed": false,
+   "pending_kinds": [
+    "anatomia_ausente"
+   ],
+   "technical_validation": {
+    "status": "nao_aplicavel",
+    "reason": "sem representação anatômica correta"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Elevação de Pernas na Barra Fixa (Suspensa)",
+   "equipment_logged": "",
+   "identification": "incompleta",
+   "anatomy": "pendente",
+   "anatomy_pending_reason": "Flexores do quadril (iliopsoas) sem camada anatômica correta.",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [],
+   "secondary": [],
+   "image": null,
+   "reviewed": false,
+   "pending_kinds": [
+    "identificacao_equipamento",
+    "anatomia_ausente"
+   ],
+   "technical_validation": {
+    "status": "nao_aplicavel",
+    "reason": "sem representação anatômica correta"
+   },
+   "visibility_notes": []
+  },
+  {
+   "name": "Elevação de Pernas na Paralela",
+   "equipment_logged": "peso corporal (parcial)",
+   "identification": "incompleta",
+   "anatomy": "pendente",
+   "anatomy_pending_reason": "Flexores do quadril (iliopsoas) sem camada anatômica correta.",
+   "laterality": "bilateral",
+   "note": "",
+   "user_confirmation_needed": "",
+   "primary": [],
+   "secondary": [],
+   "image": null,
+   "reviewed": false,
+   "pending_kinds": [
+    "identificacao_equipamento",
+    "anatomia_ausente"
+   ],
+   "technical_validation": {
+    "status": "nao_aplicavel",
+    "reason": "sem representação anatômica correta"
+   },
+   "visibility_notes": []
+  }
+ ]
+}

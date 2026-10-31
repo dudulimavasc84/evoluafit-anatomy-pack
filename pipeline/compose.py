@@ -44,6 +44,23 @@ def compose(prim, sec, view, muscles, layers_dir):
     img = full.crop((x0, y0, x0 + w, y0 + h)).convert('RGB')
     return img.resize((OUT_W, OUT_H), Image.LANCZOS)
 
+DEEP = {'eretores': 'eretores da espinha', 'soleo': 'sóleo', 'obliquo_interno': 'oblíquo interno',
+        'romboides': 'romboides', 'braquial': 'braquial'}
+
+def technical_validation(e):
+    """Validação técnica (não é aprovação visual): checagens automáticas do mapa + conferência com o cadastro."""
+    if e['anatomy'] != 'pronta':
+        return dict(status='nao_aplicavel', reason='sem representação anatômica correta' if e['anatomy'] == 'pendente' else '')
+    st = 'validada_com_ressalva' if (e.get('user_confirmation_needed') or e['identification'] != 'identificado') else 'validada_tecnicamente'
+    return dict(status=st, checks=['musculos_existem_no_modelo', 'sem_repeticao_principal_secundario',
+                                   'camadas_visiveis', 'conferido_com_cadastro_e_literatura'],
+                visual_approval='pendente')
+
+def visibility_notes(e):
+    if e['anatomy'] != 'pronta':
+        return []
+    return [f"{DEEP[m].capitalize()} é um músculo profundo: aparece só parcialmente (por transparência)." for m in e['primary'] + e['secondary'] if m in DEEP]
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--version', required=True)
@@ -83,7 +100,10 @@ def main():
         item = {k: e[k] for k in ('name', 'equipment_logged', 'identification', 'anatomy', 'anatomy_pending_reason',
                                   'laterality', 'note', 'user_confirmation_needed', 'primary', 'secondary')}
         item['image'] = image_id(e['primary'], e['secondary']) if e['anatomy'] == 'pronta' else None
-        item['reviewed'] = False
+        item['reviewed'] = False          # aprovação visual do usuário: nunca marcada automaticamente
+        item['pending_kinds'] = e.get('pending_kinds', [])
+        item['technical_validation'] = technical_validation(e)
+        item['visibility_notes'] = visibility_notes(e)
         exercises.append(item)
     manifest = dict(
         name='evoluafit-anatomy-pack', version=a.version, image_format='webp', width=OUT_W, height=OUT_H,

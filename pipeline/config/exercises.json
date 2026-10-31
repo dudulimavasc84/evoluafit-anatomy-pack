@@ -14,7 +14,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Supino Reto com Barra",
@@ -31,7 +32,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Barra livre: mais estabilização que no Smith, sem mudar os músculos exibidos.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Supino Inclinado Máquina",
@@ -48,7 +50,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "A inclinação costuma aumentar a ênfase na parte superior do peitoral e no deltoide anterior; nenhuma região trabalha isoladamente.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Supino Inclinado com Halteres",
@@ -65,7 +68,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "A inclinação costuma aumentar a ênfase na parte superior do peitoral e no deltoide anterior; nenhuma região trabalha isoladamente.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Supino Declinado Máquina",
@@ -82,7 +86,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "A declinação costuma aumentar a ênfase na parte inferior do peitoral; nenhuma região trabalha isoladamente.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Supino Máquina",
@@ -99,7 +104,10 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Ângulo e tipo do aparelho não definidos no histórico.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": [
+   "identificacao_equipamento"
+  ]
  },
  {
   "name": "Crucifixo com Halteres",
@@ -115,7 +123,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Crucifixo Inclinado Articulado (Plate-Loaded)",
@@ -131,7 +140,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "A inclinação costuma aumentar a ênfase na parte superior do peitoral; nenhuma região trabalha isoladamente.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Voador em Pé (Máquina)",
@@ -147,7 +157,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Peck Deck",
@@ -163,7 +174,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Crossover",
@@ -179,7 +191,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "A altura da polia muda a ênfase; nenhuma região do peitoral trabalha isoladamente.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Remada Baixa (Smith Row)",
@@ -204,7 +217,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Pegada e detalhes do aparelho ainda não identificados.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Remada Baixa Articulada (Pull Rack)",
@@ -227,7 +241,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Pegada e apoio do aparelho ainda não identificados.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Remada Articulada Unilateral (Máquina)",
@@ -250,7 +265,8 @@
   "anatomy_pending_reason": "",
   "laterality": "unilateral",
   "note": "Um lado por vez; músculos exibidos nos dois lados.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Remada Circular Articulada (Super Rowing Circular)",
@@ -273,7 +289,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Trajetória circular; pegada não identificada.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Remada Curvada no Smith",
@@ -298,7 +315,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Tronco inclinado sem apoio: eretores da espinha trabalham em isometria.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Remada Curvada com Barra",
@@ -323,7 +341,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Tronco inclinado sem apoio: eretores da espinha trabalham em isometria.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Remada com Halter",
@@ -346,7 +365,8 @@
   "anatomy_pending_reason": "",
   "laterality": "unilateral",
   "note": "Um lado por vez; músculos exibidos nos dois lados.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Remada Unilateral no Cabo",
@@ -369,7 +389,8 @@
   "anatomy_pending_reason": "",
   "laterality": "unilateral",
   "note": "Um lado por vez; músculos exibidos nos dois lados.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Remada Sentada (Triângulo)",
@@ -393,7 +414,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Tronco sem apoio: eretores da espinha estabilizam.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Puxada Alta",
@@ -415,7 +437,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Pegada (aberta, fechada, supinada) muda a ênfase; não registrada.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Barra Fixa",
@@ -437,7 +460,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Pullover",
@@ -455,26 +479,28 @@
   "anatomy": "pronta",
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
-  "note": "Músculo principal do pullover com halter é debatido (grande dorsal e peitoral); revisar.",
-  "user_confirmation_needed": "Confirmar principal: dorsal x peitoral"
+  "note": "Segue seu cadastro (costas principal, peito secundário). Com halter, fontes divergem: o peitoral também é muito exigido.",
+  "user_confirmation_needed": "Confirmar principal: só costas (como no cadastro) ou costas e peitoral",
+  "pending_kinds": []
  },
  {
   "name": "Pullover Articulado (Super Pullover Machine)",
   "equipment_logged": "máquina",
   "identification": "identificado",
   "primary": [
-   "latissimo"
+   "latissimo",
+   "redondo_maior"
   ],
   "secondary": [
-   "redondo_maior",
    "triceps",
    "peitoral"
   ],
   "anatomy": "pronta",
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
-  "note": "Revisar divisão entre dorsal e peitoral.",
-  "user_confirmation_needed": "Confirmar principal: dorsal x peitoral"
+  "note": "Segue seu cadastro: foco em dorsais e redondo maior; peitoral secundário.",
+  "user_confirmation_needed": "Confirmar se o peitoral deve ficar como secundário",
+  "pending_kinds": []
  },
  {
   "name": "Extensão Lombar Articulada (Plataforma)",
@@ -491,7 +517,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Desenvolvimento de Ombro Articulado (Shoulder Press)",
@@ -510,7 +537,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Desenvolvimento de Ombro Articulado Plate-Loaded",
@@ -529,7 +557,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Desenvolvimento no Smith",
@@ -548,7 +577,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Desenvolvimento com Halteres",
@@ -567,7 +597,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Desenvolvimento com Barra",
@@ -586,7 +617,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Barra livre exige mais estabilização do tronco.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Elevação Lateral",
@@ -602,7 +634,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "O supraespinhal (profundo) também atua, mas não aparece na camada.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Elevação Lateral Articulada (Máquina)",
@@ -618,7 +651,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "O supraespinhal (profundo) também atua, mas não aparece na camada.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Elevação Frontal",
@@ -637,7 +671,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Crucifixo Inverso",
@@ -656,7 +691,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Crucifixo Invertido com Halteres",
@@ -675,7 +711,8 @@
   "anatomy_pending_reason": "",
   "laterality": "unilateral",
   "note": "Um lado por vez; músculos exibidos nos dois lados.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Puxada de Ombro Articulada (Sentado)",
@@ -687,7 +724,11 @@
   "anatomy_pending_reason": "Movimento do aparelho não definido (puxada vertical ou remada posterior).",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": [
+   "identificacao_equipamento",
+   "anatomia_ausente"
+  ]
  },
  {
   "name": "Face Pull",
@@ -707,7 +748,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Rosca Martelo",
@@ -725,7 +767,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Pegada neutra, alternada. Card já aprovado.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Rosca Martelo na Corda (Cabo)",
@@ -743,7 +786,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Pegada neutra.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Rosca Direta com Barra",
@@ -761,7 +805,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Rosca Alternada",
@@ -779,7 +824,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Rosca Inclinada com Halteres",
@@ -797,7 +843,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Rosca Concentrada",
@@ -815,7 +862,8 @@
   "anatomy_pending_reason": "",
   "laterality": "unilateral",
   "note": "Um lado por vez; músculos exibidos nos dois lados.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Rosca Scott com Halter",
@@ -833,7 +881,8 @@
   "anatomy_pending_reason": "",
   "laterality": "unilateral",
   "note": "Um lado por vez; músculos exibidos nos dois lados.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Rosca Scott",
@@ -851,7 +900,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Rosca Bíceps Máquina",
@@ -869,7 +919,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Rosca Bíceps Articulada (Plate-Loaded)",
@@ -887,7 +938,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Rosca Máquina Camber",
@@ -905,7 +957,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Rosca Direta no Cabo (Polia Baixa)",
@@ -923,7 +976,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Rosca Inversa no Cabo",
@@ -931,17 +985,18 @@
   "identification": "identificado",
   "primary": [
    "braquiorradial",
+   "braquial",
    "antebraco_extensores"
   ],
   "secondary": [
-   "braquial",
    "biceps"
   ],
   "anatomy": "pronta",
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
-  "note": "Pegada pronada.",
-  "user_confirmation_needed": ""
+  "note": "Pegada pronada (palmas para baixo).",
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Rosca de Punho com Halter",
@@ -955,7 +1010,8 @@
   "anatomy_pending_reason": "",
   "laterality": "unilateral",
   "note": "Considera flexão de punho (palma para cima). Um lado por vez.",
-  "user_confirmation_needed": "Confirmar se é flexão ou extensão de punho"
+  "user_confirmation_needed": "Confirmar se é flexão ou extensão de punho",
+  "pending_kinds": []
  },
  {
   "name": "Rosca de Punho no Cabo (Polia Baixa)",
@@ -969,7 +1025,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Considera flexão de punho (palma para cima).",
-  "user_confirmation_needed": "Confirmar se é flexão ou extensão de punho"
+  "user_confirmation_needed": "Confirmar se é flexão ou extensão de punho",
+  "pending_kinds": []
  },
  {
   "name": "Tríceps Corda",
@@ -983,7 +1040,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Tríceps Pulley",
@@ -997,7 +1055,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Tríceps Francês na Corda (Cabo)",
@@ -1011,7 +1070,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Com o braço acima da cabeça (francês), a cabeça longa é mais alongada.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Tríceps Testeira",
@@ -1025,7 +1085,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Francês com Halter",
@@ -1039,7 +1100,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Com o braço acima da cabeça (francês), a cabeça longa é mais alongada.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Tríceps Máquina (Apoio de Cotovelo)",
@@ -1053,7 +1115,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Tríceps Máquina Sentado (Pulldown)",
@@ -1067,7 +1130,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Mergulho em Máquina (Dip)",
@@ -1084,7 +1148,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "A inclinação do tronco muda a participação do peitoral.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Cadeira Extensora",
@@ -1098,7 +1163,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Cadeira Extensora Unilateral",
@@ -1112,7 +1178,8 @@
   "anatomy_pending_reason": "",
   "laterality": "unilateral",
   "note": "Uma perna por vez; músculos exibidos nas duas pernas.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Leg Press",
@@ -1130,7 +1197,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Posição dos pés muda a ênfase entre quadríceps e glúteo; não registrada.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Leg Press 45° (Trilho Duplo)",
@@ -1148,7 +1216,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Posição dos pés muda a ênfase; não registrada.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Leg Press Articulado (Iso-Lateral)",
@@ -1166,7 +1235,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Posição dos pés muda a ênfase; não registrada.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Leg Press Unilateral",
@@ -1184,7 +1254,8 @@
   "anatomy_pending_reason": "",
   "laterality": "unilateral",
   "note": "Uma perna por vez; músculos exibidos nas duas pernas.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Agachamento Hack (Máquina)",
@@ -1201,7 +1272,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Agachamento Livre",
@@ -1220,8 +1292,9 @@
   "anatomy": "pronta",
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
-  "note": "",
-  "user_confirmation_needed": ""
+  "note": "Profundidade e posição dos pés alteram a participação do glúteo.",
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Agachamento Máquina",
@@ -1233,7 +1306,11 @@
   "anatomy_pending_reason": "Tipo de agachamento em máquina não definido.",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": [
+   "identificacao_equipamento",
+   "anatomia_ausente"
+  ]
  },
  {
   "name": "Cadeira Flexora",
@@ -1249,7 +1326,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Mesa Flexora",
@@ -1265,7 +1343,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Flexora em Pé (Unilateral)",
@@ -1281,17 +1360,18 @@
   "anatomy_pending_reason": "",
   "laterality": "unilateral",
   "note": "Uma perna por vez; músculos exibidos nas duas pernas.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Stiff",
   "equipment_logged": "barra",
   "identification": "identificado",
   "primary": [
-   "isquiotibiais",
-   "gluteo_maximo"
+   "isquiotibiais"
   ],
   "secondary": [
+   "gluteo_maximo",
    "eretores",
    "adutores"
   ],
@@ -1299,17 +1379,18 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Stiff no Smith (Barra Guiada)",
   "equipment_logged": "máquina Smith",
   "identification": "identificado",
   "primary": [
-   "isquiotibiais",
-   "gluteo_maximo"
+   "isquiotibiais"
   ],
   "secondary": [
+   "gluteo_maximo",
    "eretores",
    "adutores"
   ],
@@ -1317,7 +1398,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Cadeira Abdutora",
@@ -1333,7 +1415,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "O tensor da fáscia lata também atua, mas não aparece na camada.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Cadeira Adutora",
@@ -1347,7 +1430,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Elevação Pélvica",
@@ -1365,7 +1449,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Elevação Pélvica no Smith",
@@ -1383,7 +1468,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Elevação Pélvica na Máquina (Hip Thrust)",
@@ -1401,7 +1487,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Panturrilha em Pé (Máquina)",
@@ -1417,7 +1504,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Panturrilha no Leg Press",
@@ -1433,7 +1521,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Panturrilha Sentado (Máquina)",
@@ -1449,7 +1538,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Abdominal Supra",
@@ -1465,7 +1555,10 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": [
+   "identificacao_equipamento"
+  ]
  },
  {
   "name": "Abdominal Infra",
@@ -1481,7 +1574,10 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": [
+   "identificacao_equipamento"
+  ]
  },
  {
   "name": "Abdominal Máquina",
@@ -1497,7 +1593,10 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": [
+   "identificacao_equipamento"
+  ]
  },
  {
   "name": "Prancha",
@@ -1515,7 +1614,10 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": [
+   "identificacao_equipamento"
+  ]
  },
  {
   "name": "Woodchopper no Cabo (Lenhador)",
@@ -1535,7 +1637,10 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Movimento rotacional diagonal.",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": [
+   "identificacao_equipamento"
+  ]
  },
  {
   "name": "Rotação Russa com Anilha (Oblíquos)",
@@ -1552,7 +1657,8 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": []
  },
  {
   "name": "Dead Bug",
@@ -1564,7 +1670,10 @@
   "anatomy_pending_reason": "Músculos principais são o transverso do abdome e o iliopsoas, ainda sem camada anatômica correta.",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": [
+   "anatomia_ausente"
+  ]
  },
  {
   "name": "Elevação de Pernas na Barra Fixa (Suspensa)",
@@ -1576,7 +1685,11 @@
   "anatomy_pending_reason": "Flexores do quadril (iliopsoas) sem camada anatômica correta.",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": [
+   "identificacao_equipamento",
+   "anatomia_ausente"
+  ]
  },
  {
   "name": "Elevação de Pernas na Paralela",
@@ -1588,6 +1701,10 @@
   "anatomy_pending_reason": "Flexores do quadril (iliopsoas) sem camada anatômica correta.",
   "laterality": "bilateral",
   "note": "",
-  "user_confirmation_needed": ""
+  "user_confirmation_needed": "",
+  "pending_kinds": [
+   "identificacao_equipamento",
+   "anatomia_ausente"
+  ]
  }
 ]
