@@ -1,0 +1,1593 @@
+[
+ {
+  "name": "Supino Reto no Smith",
+  "equipment_logged": "máquina Smith",
+  "identification": "identificado",
+  "primary": [
+   "peitoral"
+  ],
+  "secondary": [
+   "deltoide_anterior",
+   "triceps"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Supino Reto com Barra",
+  "equipment_logged": "barra",
+  "identification": "identificado",
+  "primary": [
+   "peitoral"
+  ],
+  "secondary": [
+   "deltoide_anterior",
+   "triceps"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Barra livre: mais estabilização que no Smith, sem mudar os músculos exibidos.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Supino Inclinado Máquina",
+  "equipment_logged": "máquina articulada",
+  "identification": "identificado",
+  "primary": [
+   "peitoral"
+  ],
+  "secondary": [
+   "deltoide_anterior",
+   "triceps"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "A inclinação costuma aumentar a ênfase na parte superior do peitoral e no deltoide anterior; nenhuma região trabalha isoladamente.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Supino Inclinado com Halteres",
+  "equipment_logged": "halter",
+  "identification": "identificado",
+  "primary": [
+   "peitoral"
+  ],
+  "secondary": [
+   "deltoide_anterior",
+   "triceps"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "A inclinação costuma aumentar a ênfase na parte superior do peitoral e no deltoide anterior; nenhuma região trabalha isoladamente.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Supino Declinado Máquina",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "peitoral"
+  ],
+  "secondary": [
+   "triceps",
+   "deltoide_anterior"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "A declinação costuma aumentar a ênfase na parte inferior do peitoral; nenhuma região trabalha isoladamente.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Supino Máquina",
+  "equipment_logged": "máquina",
+  "identification": "incompleta",
+  "primary": [
+   "peitoral"
+  ],
+  "secondary": [
+   "deltoide_anterior",
+   "triceps"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Ângulo e tipo do aparelho não definidos no histórico.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Crucifixo com Halteres",
+  "equipment_logged": "halter",
+  "identification": "identificado",
+  "primary": [
+   "peitoral"
+  ],
+  "secondary": [
+   "deltoide_anterior"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Crucifixo Inclinado Articulado (Plate-Loaded)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "peitoral"
+  ],
+  "secondary": [
+   "deltoide_anterior"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "A inclinação costuma aumentar a ênfase na parte superior do peitoral; nenhuma região trabalha isoladamente.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Voador em Pé (Máquina)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "peitoral"
+  ],
+  "secondary": [
+   "deltoide_anterior"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Peck Deck",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "peitoral"
+  ],
+  "secondary": [
+   "deltoide_anterior"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Crossover",
+  "equipment_logged": "cabo",
+  "identification": "identificado",
+  "primary": [
+   "peitoral"
+  ],
+  "secondary": [
+   "deltoide_anterior"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "A altura da polia muda a ênfase; nenhuma região do peitoral trabalha isoladamente.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Remada Baixa (Smith Row)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "latissimo",
+   "trapezio_medio",
+   "romboides"
+  ],
+  "secondary": [
+   "trapezio_inferior",
+   "redondo_maior",
+   "infraespinhal",
+   "redondo_menor",
+   "deltoide_posterior",
+   "biceps",
+   "braquial",
+   "braquiorradial"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Pegada e detalhes do aparelho ainda não identificados.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Remada Baixa Articulada (Pull Rack)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "latissimo",
+   "trapezio_medio",
+   "romboides"
+  ],
+  "secondary": [
+   "trapezio_inferior",
+   "redondo_maior",
+   "deltoide_posterior",
+   "biceps",
+   "braquial",
+   "braquiorradial"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Pegada e apoio do aparelho ainda não identificados.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Remada Articulada Unilateral (Máquina)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "latissimo",
+   "trapezio_medio",
+   "romboides"
+  ],
+  "secondary": [
+   "trapezio_inferior",
+   "redondo_maior",
+   "deltoide_posterior",
+   "biceps",
+   "braquial",
+   "braquiorradial"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "unilateral",
+  "note": "Um lado por vez; músculos exibidos nos dois lados.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Remada Circular Articulada (Super Rowing Circular)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "latissimo",
+   "trapezio_medio",
+   "romboides"
+  ],
+  "secondary": [
+   "trapezio_inferior",
+   "redondo_maior",
+   "deltoide_posterior",
+   "biceps",
+   "braquial",
+   "braquiorradial"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Trajetória circular; pegada não identificada.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Remada Curvada no Smith",
+  "equipment_logged": "máquina Smith",
+  "identification": "identificado",
+  "primary": [
+   "latissimo",
+   "trapezio_medio",
+   "romboides"
+  ],
+  "secondary": [
+   "trapezio_inferior",
+   "redondo_maior",
+   "infraespinhal",
+   "deltoide_posterior",
+   "biceps",
+   "braquial",
+   "braquiorradial",
+   "eretores"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Tronco inclinado sem apoio: eretores da espinha trabalham em isometria.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Remada Curvada com Barra",
+  "equipment_logged": "barra",
+  "identification": "identificado",
+  "primary": [
+   "latissimo",
+   "trapezio_medio",
+   "romboides"
+  ],
+  "secondary": [
+   "trapezio_inferior",
+   "redondo_maior",
+   "infraespinhal",
+   "deltoide_posterior",
+   "biceps",
+   "braquial",
+   "braquiorradial",
+   "eretores"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Tronco inclinado sem apoio: eretores da espinha trabalham em isometria.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Remada com Halter",
+  "equipment_logged": "halter",
+  "identification": "identificado",
+  "primary": [
+   "latissimo",
+   "trapezio_medio",
+   "romboides"
+  ],
+  "secondary": [
+   "trapezio_inferior",
+   "redondo_maior",
+   "deltoide_posterior",
+   "biceps",
+   "braquial",
+   "braquiorradial"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "unilateral",
+  "note": "Um lado por vez; músculos exibidos nos dois lados.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Remada Unilateral no Cabo",
+  "equipment_logged": "cabo",
+  "identification": "identificado",
+  "primary": [
+   "latissimo",
+   "trapezio_medio",
+   "romboides"
+  ],
+  "secondary": [
+   "trapezio_inferior",
+   "redondo_maior",
+   "deltoide_posterior",
+   "biceps",
+   "braquial",
+   "braquiorradial"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "unilateral",
+  "note": "Um lado por vez; músculos exibidos nos dois lados.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Remada Sentada (Triângulo)",
+  "equipment_logged": "cabo",
+  "identification": "identificado",
+  "primary": [
+   "latissimo",
+   "trapezio_medio",
+   "romboides"
+  ],
+  "secondary": [
+   "trapezio_inferior",
+   "redondo_maior",
+   "deltoide_posterior",
+   "biceps",
+   "braquial",
+   "braquiorradial",
+   "eretores"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Tronco sem apoio: eretores da espinha estabilizam.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Puxada Alta",
+  "equipment_logged": "cabo",
+  "identification": "identificado",
+  "primary": [
+   "latissimo"
+  ],
+  "secondary": [
+   "redondo_maior",
+   "romboides",
+   "trapezio_inferior",
+   "deltoide_posterior",
+   "biceps",
+   "braquial",
+   "braquiorradial"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Pegada (aberta, fechada, supinada) muda a ênfase; não registrada.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Barra Fixa",
+  "equipment_logged": "peso corporal",
+  "identification": "identificado",
+  "primary": [
+   "latissimo"
+  ],
+  "secondary": [
+   "redondo_maior",
+   "romboides",
+   "trapezio_inferior",
+   "deltoide_posterior",
+   "biceps",
+   "braquial",
+   "braquiorradial"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Pullover",
+  "equipment_logged": "halter",
+  "identification": "identificado",
+  "primary": [
+   "latissimo"
+  ],
+  "secondary": [
+   "peitoral",
+   "redondo_maior",
+   "triceps",
+   "serratil"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Músculo principal do pullover com halter é debatido (grande dorsal e peitoral); revisar.",
+  "user_confirmation_needed": "Confirmar principal: dorsal x peitoral"
+ },
+ {
+  "name": "Pullover Articulado (Super Pullover Machine)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "latissimo"
+  ],
+  "secondary": [
+   "redondo_maior",
+   "triceps",
+   "peitoral"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Revisar divisão entre dorsal e peitoral.",
+  "user_confirmation_needed": "Confirmar principal: dorsal x peitoral"
+ },
+ {
+  "name": "Extensão Lombar Articulada (Plataforma)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "eretores"
+  ],
+  "secondary": [
+   "gluteo_maximo",
+   "isquiotibiais"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Desenvolvimento de Ombro Articulado (Shoulder Press)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "deltoide_anterior",
+   "deltoide_lateral"
+  ],
+  "secondary": [
+   "triceps",
+   "trapezio_superior",
+   "serratil"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Desenvolvimento de Ombro Articulado Plate-Loaded",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "deltoide_anterior",
+   "deltoide_lateral"
+  ],
+  "secondary": [
+   "triceps",
+   "trapezio_superior",
+   "serratil"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Desenvolvimento no Smith",
+  "equipment_logged": "máquina Smith",
+  "identification": "identificado",
+  "primary": [
+   "deltoide_anterior",
+   "deltoide_lateral"
+  ],
+  "secondary": [
+   "triceps",
+   "trapezio_superior",
+   "serratil"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Desenvolvimento com Halteres",
+  "equipment_logged": "halter",
+  "identification": "identificado",
+  "primary": [
+   "deltoide_anterior",
+   "deltoide_lateral"
+  ],
+  "secondary": [
+   "triceps",
+   "trapezio_superior",
+   "serratil"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Desenvolvimento com Barra",
+  "equipment_logged": "barra",
+  "identification": "identificado",
+  "primary": [
+   "deltoide_anterior",
+   "deltoide_lateral"
+  ],
+  "secondary": [
+   "triceps",
+   "trapezio_superior",
+   "serratil"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Barra livre exige mais estabilização do tronco.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Elevação Lateral",
+  "equipment_logged": "halter",
+  "identification": "identificado",
+  "primary": [
+   "deltoide_lateral"
+  ],
+  "secondary": [
+   "trapezio_superior"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "O supraespinhal (profundo) também atua, mas não aparece na camada.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Elevação Lateral Articulada (Máquina)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "deltoide_lateral"
+  ],
+  "secondary": [
+   "trapezio_superior"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "O supraespinhal (profundo) também atua, mas não aparece na camada.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Elevação Frontal",
+  "equipment_logged": "halter",
+  "identification": "identificado",
+  "primary": [
+   "deltoide_anterior"
+  ],
+  "secondary": [
+   "deltoide_lateral",
+   "peitoral",
+   "trapezio_superior",
+   "serratil"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Crucifixo Inverso",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "deltoide_posterior"
+  ],
+  "secondary": [
+   "infraespinhal",
+   "redondo_menor",
+   "romboides",
+   "trapezio_medio"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Crucifixo Invertido com Halteres",
+  "equipment_logged": "halter",
+  "identification": "identificado",
+  "primary": [
+   "deltoide_posterior"
+  ],
+  "secondary": [
+   "infraespinhal",
+   "redondo_menor",
+   "romboides",
+   "trapezio_medio"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "unilateral",
+  "note": "Um lado por vez; músculos exibidos nos dois lados.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Puxada de Ombro Articulada (Sentado)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [],
+  "secondary": [],
+  "anatomy": "pendente",
+  "anatomy_pending_reason": "Movimento do aparelho não definido (puxada vertical ou remada posterior).",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Face Pull",
+  "equipment_logged": "cabo",
+  "identification": "identificado",
+  "primary": [
+   "deltoide_posterior",
+   "infraespinhal",
+   "redondo_menor"
+  ],
+  "secondary": [
+   "trapezio_medio",
+   "romboides",
+   "trapezio_inferior"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Rosca Martelo",
+  "equipment_logged": "halter",
+  "identification": "identificado",
+  "primary": [
+   "biceps",
+   "braquial",
+   "braquiorradial"
+  ],
+  "secondary": [
+   "antebraco"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Pegada neutra, alternada. Card já aprovado.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Rosca Martelo na Corda (Cabo)",
+  "equipment_logged": "cabo",
+  "identification": "identificado",
+  "primary": [
+   "biceps",
+   "braquial",
+   "braquiorradial"
+  ],
+  "secondary": [
+   "antebraco"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Pegada neutra.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Rosca Direta com Barra",
+  "equipment_logged": "barra",
+  "identification": "identificado",
+  "primary": [
+   "biceps",
+   "braquial"
+  ],
+  "secondary": [
+   "braquiorradial",
+   "antebraco"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Rosca Alternada",
+  "equipment_logged": "halter",
+  "identification": "identificado",
+  "primary": [
+   "biceps",
+   "braquial"
+  ],
+  "secondary": [
+   "braquiorradial",
+   "antebraco"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Rosca Inclinada com Halteres",
+  "equipment_logged": "halter",
+  "identification": "identificado",
+  "primary": [
+   "biceps",
+   "braquial"
+  ],
+  "secondary": [
+   "braquiorradial",
+   "antebraco"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Rosca Concentrada",
+  "equipment_logged": "halter",
+  "identification": "identificado",
+  "primary": [
+   "biceps",
+   "braquial"
+  ],
+  "secondary": [
+   "braquiorradial",
+   "antebraco"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "unilateral",
+  "note": "Um lado por vez; músculos exibidos nos dois lados.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Rosca Scott com Halter",
+  "equipment_logged": "halter",
+  "identification": "identificado",
+  "primary": [
+   "biceps",
+   "braquial"
+  ],
+  "secondary": [
+   "braquiorradial",
+   "antebraco"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "unilateral",
+  "note": "Um lado por vez; músculos exibidos nos dois lados.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Rosca Scott",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "biceps",
+   "braquial"
+  ],
+  "secondary": [
+   "braquiorradial",
+   "antebraco"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Rosca Bíceps Máquina",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "biceps",
+   "braquial"
+  ],
+  "secondary": [
+   "braquiorradial",
+   "antebraco"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Rosca Bíceps Articulada (Plate-Loaded)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "biceps",
+   "braquial"
+  ],
+  "secondary": [
+   "braquiorradial",
+   "antebraco"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Rosca Máquina Camber",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "biceps",
+   "braquial"
+  ],
+  "secondary": [
+   "braquiorradial",
+   "antebraco"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Rosca Direta no Cabo (Polia Baixa)",
+  "equipment_logged": "cabo",
+  "identification": "identificado",
+  "primary": [
+   "biceps",
+   "braquial"
+  ],
+  "secondary": [
+   "braquiorradial",
+   "antebraco"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Rosca Inversa no Cabo",
+  "equipment_logged": "cabo",
+  "identification": "identificado",
+  "primary": [
+   "braquiorradial",
+   "antebraco_extensores"
+  ],
+  "secondary": [
+   "braquial",
+   "biceps"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Pegada pronada.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Rosca de Punho com Halter",
+  "equipment_logged": "halter",
+  "identification": "identificado",
+  "primary": [
+   "antebraco_flexores"
+  ],
+  "secondary": [],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "unilateral",
+  "note": "Considera flexão de punho (palma para cima). Um lado por vez.",
+  "user_confirmation_needed": "Confirmar se é flexão ou extensão de punho"
+ },
+ {
+  "name": "Rosca de Punho no Cabo (Polia Baixa)",
+  "equipment_logged": "cabo",
+  "identification": "identificado",
+  "primary": [
+   "antebraco_flexores"
+  ],
+  "secondary": [],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Considera flexão de punho (palma para cima).",
+  "user_confirmation_needed": "Confirmar se é flexão ou extensão de punho"
+ },
+ {
+  "name": "Tríceps Corda",
+  "equipment_logged": "cabo",
+  "identification": "identificado",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Tríceps Pulley",
+  "equipment_logged": "cabo",
+  "identification": "identificado",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Tríceps Francês na Corda (Cabo)",
+  "equipment_logged": "cabo",
+  "identification": "identificado",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Com o braço acima da cabeça (francês), a cabeça longa é mais alongada.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Tríceps Testeira",
+  "equipment_logged": "barra",
+  "identification": "identificado",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Francês com Halter",
+  "equipment_logged": "halter",
+  "identification": "identificado",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Com o braço acima da cabeça (francês), a cabeça longa é mais alongada.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Tríceps Máquina (Apoio de Cotovelo)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Tríceps Máquina Sentado (Pulldown)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Mergulho em Máquina (Dip)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "triceps"
+  ],
+  "secondary": [
+   "peitoral",
+   "deltoide_anterior"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "A inclinação do tronco muda a participação do peitoral.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Cadeira Extensora",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "quadriceps"
+  ],
+  "secondary": [],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Cadeira Extensora Unilateral",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "quadriceps"
+  ],
+  "secondary": [],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "unilateral",
+  "note": "Uma perna por vez; músculos exibidos nas duas pernas.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Leg Press",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "quadriceps",
+   "gluteo_maximo"
+  ],
+  "secondary": [
+   "adutores",
+   "isquiotibiais"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Posição dos pés muda a ênfase entre quadríceps e glúteo; não registrada.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Leg Press 45° (Trilho Duplo)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "quadriceps",
+   "gluteo_maximo"
+  ],
+  "secondary": [
+   "adutores",
+   "isquiotibiais"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Posição dos pés muda a ênfase; não registrada.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Leg Press Articulado (Iso-Lateral)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "quadriceps",
+   "gluteo_maximo"
+  ],
+  "secondary": [
+   "adutores",
+   "isquiotibiais"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Posição dos pés muda a ênfase; não registrada.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Leg Press Unilateral",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "quadriceps",
+   "gluteo_maximo"
+  ],
+  "secondary": [
+   "adutores",
+   "isquiotibiais"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "unilateral",
+  "note": "Uma perna por vez; músculos exibidos nas duas pernas.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Agachamento Hack (Máquina)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "quadriceps"
+  ],
+  "secondary": [
+   "gluteo_maximo",
+   "adutores"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Agachamento Livre",
+  "equipment_logged": "barra",
+  "identification": "identificado",
+  "primary": [
+   "quadriceps",
+   "gluteo_maximo"
+  ],
+  "secondary": [
+   "adutores",
+   "isquiotibiais",
+   "eretores",
+   "abdominais"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Agachamento Máquina",
+  "equipment_logged": "",
+  "identification": "incompleta",
+  "primary": [],
+  "secondary": [],
+  "anatomy": "pendente",
+  "anatomy_pending_reason": "Tipo de agachamento em máquina não definido.",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Cadeira Flexora",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "isquiotibiais"
+  ],
+  "secondary": [
+   "gastrocnemio"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Mesa Flexora",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "isquiotibiais"
+  ],
+  "secondary": [
+   "gastrocnemio"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Flexora em Pé (Unilateral)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "isquiotibiais"
+  ],
+  "secondary": [
+   "gastrocnemio"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "unilateral",
+  "note": "Uma perna por vez; músculos exibidos nas duas pernas.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Stiff",
+  "equipment_logged": "barra",
+  "identification": "identificado",
+  "primary": [
+   "isquiotibiais",
+   "gluteo_maximo"
+  ],
+  "secondary": [
+   "eretores",
+   "adutores"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Stiff no Smith (Barra Guiada)",
+  "equipment_logged": "máquina Smith",
+  "identification": "identificado",
+  "primary": [
+   "isquiotibiais",
+   "gluteo_maximo"
+  ],
+  "secondary": [
+   "eretores",
+   "adutores"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Cadeira Abdutora",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "gluteo_medio"
+  ],
+  "secondary": [
+   "gluteo_maximo"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "O tensor da fáscia lata também atua, mas não aparece na camada.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Cadeira Adutora",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "adutores"
+  ],
+  "secondary": [],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Elevação Pélvica",
+  "equipment_logged": "barra",
+  "identification": "identificado",
+  "primary": [
+   "gluteo_maximo"
+  ],
+  "secondary": [
+   "isquiotibiais",
+   "adutores",
+   "quadriceps"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Elevação Pélvica no Smith",
+  "equipment_logged": "máquina Smith",
+  "identification": "identificado",
+  "primary": [
+   "gluteo_maximo"
+  ],
+  "secondary": [
+   "isquiotibiais",
+   "adutores",
+   "quadriceps"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Elevação Pélvica na Máquina (Hip Thrust)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "gluteo_maximo"
+  ],
+  "secondary": [
+   "isquiotibiais",
+   "adutores",
+   "quadriceps"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Panturrilha em Pé (Máquina)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "gastrocnemio"
+  ],
+  "secondary": [
+   "soleo"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Panturrilha no Leg Press",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "gastrocnemio"
+  ],
+  "secondary": [
+   "soleo"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Panturrilha Sentado (Máquina)",
+  "equipment_logged": "máquina",
+  "identification": "identificado",
+  "primary": [
+   "soleo"
+  ],
+  "secondary": [
+   "gastrocnemio"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Abdominal Supra",
+  "equipment_logged": "peso corporal (parcial)",
+  "identification": "incompleta",
+  "primary": [
+   "abdominais"
+  ],
+  "secondary": [
+   "obliquos"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Abdominal Infra",
+  "equipment_logged": "peso corporal (parcial)",
+  "identification": "incompleta",
+  "primary": [
+   "abdominais"
+  ],
+  "secondary": [
+   "obliquos"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Abdominal Máquina",
+  "equipment_logged": "máquina (parcial)",
+  "identification": "incompleta",
+  "primary": [
+   "abdominais"
+  ],
+  "secondary": [
+   "obliquos"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Prancha",
+  "equipment_logged": "",
+  "identification": "incompleta",
+  "primary": [
+   "abdominais"
+  ],
+  "secondary": [
+   "obliquos",
+   "serratil",
+   "eretores"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Woodchopper no Cabo (Lenhador)",
+  "equipment_logged": "",
+  "identification": "incompleta",
+  "primary": [
+   "obliquos",
+   "obliquo_interno"
+  ],
+  "secondary": [
+   "abdominais",
+   "serratil",
+   "deltoide_anterior",
+   "latissimo"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "Movimento rotacional diagonal.",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Rotação Russa com Anilha (Oblíquos)",
+  "equipment_logged": "peso corporal",
+  "identification": "identificado",
+  "primary": [
+   "obliquos",
+   "obliquo_interno"
+  ],
+  "secondary": [
+   "abdominais"
+  ],
+  "anatomy": "pronta",
+  "anatomy_pending_reason": "",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Dead Bug",
+  "equipment_logged": "peso corporal",
+  "identification": "identificado",
+  "primary": [],
+  "secondary": [],
+  "anatomy": "pendente",
+  "anatomy_pending_reason": "Músculos principais são o transverso do abdome e o iliopsoas, ainda sem camada anatômica correta.",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Elevação de Pernas na Barra Fixa (Suspensa)",
+  "equipment_logged": "",
+  "identification": "incompleta",
+  "primary": [],
+  "secondary": [],
+  "anatomy": "pendente",
+  "anatomy_pending_reason": "Flexores do quadril (iliopsoas) sem camada anatômica correta.",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ },
+ {
+  "name": "Elevação de Pernas na Paralela",
+  "equipment_logged": "peso corporal (parcial)",
+  "identification": "incompleta",
+  "primary": [],
+  "secondary": [],
+  "anatomy": "pendente",
+  "anatomy_pending_reason": "Flexores do quadril (iliopsoas) sem camada anatômica correta.",
+  "laterality": "bilateral",
+  "note": "",
+  "user_confirmation_needed": ""
+ }
+]

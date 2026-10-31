@@ -1,0 +1,100 @@
+<!doctype html><meta charset=utf-8>
+<body style="margin:0;background:transparent"><canvas id=c></canvas>
+<script type="importmap">{"imports":{"three":"./three_pkg/build/three.module.js","three/addons/":"./three_pkg/examples/jsm/"}}</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
+const W = 800, H = 1600;
+const canvas = document.getElementById('c');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1); renderer.setSize(W, H); renderer.setClearColor(0x000000, 0);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+const scene = new THREE.Scene();
+const cam = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.01, 10);
+const asp = W / H, hh = 0.98, cy = 0.9;
+cam.left = -hh * asp; cam.right = hh * asp; cam.top = hh; cam.bottom = -hh; cam.up.set(0, 0, 1); cam.updateProjectionMatrix();
+const hemi = new THREE.HemisphereLight(0xffffff, 0x555566, 1.1); scene.add(hemi);
+const key = new THREE.DirectionalLight(0xffffff, 1.6); scene.add(key);
+const rim = new THREE.DirectionalLight(0xaab4ff, 0.6); scene.add(rim);
+const DS = THREE.DoubleSide;
+const MAT = {
+  base: new THREE.MeshStandardMaterial({ color: 0xb9bcc4, roughness: 0.62, metalness: 0, side: DS }),
+  bone: new THREE.MeshStandardMaterial({ color: 0x6b6e76, roughness: 0.8, metalness: 0, side: DS }),
+  prim: new THREE.MeshStandardMaterial({ color: 0xff7a1a, roughness: 0.45, metalness: 0, side: DS, emissive: 0x6a2400, emissiveIntensity: 0.55 }),
+  sec: new THREE.MeshStandardMaterial({ color: 0xc9966a, roughness: 0.6, metalness: 0, side: DS }),
+  depth: new THREE.MeshBasicMaterial({ colorWrite: false, side: DS }),
+};
+const loader = new GLTFLoader(); loader.setMeshoptDecoder(MeshoptDecoder);
+const load = (u) => new Promise((r, j) => loader.load(u, (g) => r(g.scene), undefined, j));
+const meshesByGroup = {}; // grupo -> [mesh]
+const add = (group, obj) => { (meshesByGroup[group] ||= []).push(obj); scene.add(obj); };
+const GROUPS = (new URLSearchParams(location.search).get('groups') || '').split(',').filter(Boolean);
+for (const g of GROUPS) { const o = await load(`glb/${g}.glb`); o.traverse((m) => { if (m.isMesh) m.geometry.computeVertexNormals(); }); add(g, o); }
+// Z-Anatomy (via Body Atlas, CC BY-SA 4.0): músculos que o BodyParts3D não tem. Eixos: Y-up -> Z-up e deslocamento medido.
+const ZA = { 'Left latissimus dorsi': 'latissimo', 'Right latissimus dorsi': 'latissimo', 'Left rectus abdominis': 'abdominais', 'Right rectus abdominis': 'abdominais',
+  'Left internal oblique': 'obliquo_interno', 'Right internal oblique': 'obliquo_interno',
+  'Left iliocostalis lumborum': 'eretores', 'Right iliocostalis lumborum': 'eretores', 'Left iliocostalis thoracis': 'eretores', 'Right iliocostalis thoracis': 'eretores', 'Left longissimus thoracis': 'eretores', 'Right longissimus thoracis': 'eretores', 'Left spinalis thoracis': 'eretores', 'Right spinalis thoracis': 'eretores',
+  'Tendons of left latissimus dorsi': 'tendoes', 'Tendons of right latissimus dorsi': 'tendoes', 'Tendons of left rectus abdominis': 'tendoes', 'Tendons of right rectus abdominis': 'tendoes' };
+const ba = await load('glb_muscular_bodyatlas.glb');
+const M = new THREE.Matrix4().set(1, 0, 0, 0, 0, 0, -1, -0.101, 0, 1, 0, -0.078, 0, 0, 0, 1);
+const pick = [];
+ba.traverse((o) => { if (o.isMesh) { const n = o.userData && o.userData.name; if (ZA[n]) pick.push([o, ZA[n]]); } });
+ba.updateMatrixWorld(true);
+for (const [o, g] of pick) {
+  const src = o.geometry, pa = src.attributes.position; const arr = new Float32Array(pa.count * 3);
+  for (let i = 0; i < pa.count; i++) { arr[i*3] = pa.getX(i); arr[i*3+1] = pa.getY(i); arr[i*3+2] = pa.getZ(i); }
+  const geo = new THREE.BufferGeometry(); geo.setAttribute('position', new THREE.BufferAttribute(arr, 3)); if (src.index) geo.setIndex(src.index.clone());
+  geo.applyMatrix4(o.matrixWorld); geo.applyMatrix4(M);
+  geo.computeVertexNormals();
+  const m = new THREE.Mesh(geo, MAT.base); add(g, m);
+}
+// Cabeça procedural: superelipsoide (crânio cheio) + afunilamento da mandíbula + queixo à frente + orelhas.
+{
+  const geo = new THREE.SphereGeometry(1, 128, 96);
+  const p = geo.attributes.position; const N = 2.5;
+  const WH = 0.068, DH = 0.083, HH = 0.103;
+  for (let i = 0; i < p.count; i++) {
+    const x = p.getX(i), t = p.getY(i), z = p.getZ(i);
+    const s = Math.hypot(x, z) || 1e-9; const dx = x / s, dz = z / s;
+    const R = Math.pow(Math.max(0, 1 - Math.pow(Math.abs(t), N)), 1 / N);
+    const low = Math.max(0, -t), up = Math.max(0, t);
+    const taper = 1 - 0.30 * Math.pow(low, 1.2);
+    const wx = dx * R * WH * taper;
+    const depth = dz * R * DH * (1 - 0.12 * Math.pow(low, 1.3));
+    const shift = -0.014 * Math.pow(low, 1.8) + 0.006 * up;  // queixo avança (frente = -y)
+    p.setXYZ(i, wx, depth + shift, t * HH);
+  }
+  geo.computeVertexNormals();
+  const mat = new THREE.MeshStandardMaterial({ color: 0x9a9ea7, roughness: 0.68, side: THREE.DoubleSide });
+  const head = new THREE.Mesh(geo, mat); head.position.set(0, 0.0, 1.50); add('cabeca', head);
+  for (const sgn of [-1, 1]) {
+    const ear = new THREE.Mesh(new THREE.SphereGeometry(1, 24, 16), mat);
+    ear.scale.set(0.010, 0.026, 0.034); ear.position.set(sgn * 0.070, 0.008, 1.496); add('cabeca', ear);
+  }
+}
+const GHOST_OCCLUDERS = { romboides: ['trapezio_superior', 'trapezio_medio', 'trapezio_inferior'], obliquo_interno: ['obliquos'], braquial: ['biceps'], eretores: ['latissimo','trapezio_superior','trapezio_medio','trapezio_inferior','romboides','serratil','obliquos','obliquo_interno','musculo_outro','deltoide_posterior','infraespinhal','redondo_maior','redondo_menor','gluteo_maximo','gluteo_medio'], abdominais: ['obliquos','obliquo_interno'], soleo: ['gastrocnemio','panturrilha'] };
+function setView(view) {
+  const s = view === 'back' ? 1 : -1; // frente = -y (mesmo referencial do BodyParts3D), costas = +y
+  cam.position.set(0, 3 * s, cy); cam.lookAt(0, 0, cy);
+  key.position.set(-1, 3 * s, 2.5); rim.position.set(2, -3 * s, 1);
+}
+window.renderSpec = (spec) => {
+  setView(spec.view);
+  const ghostHide = ((spec.mode === 'overlay' && GHOST_OCCLUDERS[spec.group]) || []).concat(spec.hide || []);
+  for (const [g, list] of Object.entries(meshesByGroup)) {
+    for (const root of list) root.traverse((m) => {
+      if (!m.isMesh) return;
+      if (!m.userData.orig) m.userData.orig = m.material;
+      m.visible = !ghostHide.includes(g);
+      m.renderOrder = (spec.mode === 'overlay' && g === spec.group) ? 1 : 0;
+      if (spec.mode === 'base') m.material = g === 'cabeca' ? m.userData.orig : g === 'osso' ? MAT.bone : MAT.base;
+      else if (g === spec.group) m.material = MAT[spec.color];
+      else m.material = MAT.depth;
+    });
+  }
+  renderer.render(scene, cam);
+  return canvas.toDataURL('image/png');
+};
+window.__bb = (g) => { const b = new THREE.Box3(); meshesByGroup[g].forEach(o => b.expandByObject(o)); return [b.min.toArray(), b.max.toArray()]; }; window.__groups = Object.keys(meshesByGroup); window.__done = true;
+</script>
