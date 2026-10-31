@@ -51,7 +51,10 @@ def technical_validation(e):
     """Validação técnica (não é aprovação visual): checagens automáticas do mapa + conferência com o cadastro."""
     if e['anatomy'] != 'pronta':
         return dict(status='nao_aplicavel', reason='sem representação anatômica correta' if e['anatomy'] == 'pendente' else '')
-    st = 'validada_com_ressalva' if (e.get('user_confirmation_needed') or e['identification'] != 'identificado') else 'validada_tecnicamente'
+    if e['identification'] != 'identificado':
+        return dict(status='identificacao_pendente', reason='mapa pronto, mas o equipamento/execução não está identificado: a figura não é exibida no app',
+                    visual_approval='pendente')
+    st = 'validada_com_ressalva' if e.get('user_confirmation_needed') else 'validada_tecnicamente'
     return dict(status=st, checks=['musculos_existem_no_modelo', 'sem_repeticao_principal_secundario',
                                    'camadas_visiveis', 'conferido_com_cadastro_e_literatura'],
                 visual_approval='pendente')

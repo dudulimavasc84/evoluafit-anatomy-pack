@@ -14,3 +14,7 @@ Limitações conhecidas: o vasto intermédio e músculos profundos (supraespinha
 - Mapas ajustados após auditoria: Leg Press/Agachamento/Stiff (glúteo como secundário quando o quadríceps ou isquiotibiais dominam), Rosca Inversa no Cabo (braquiorradial, braquial e extensores do antebraço como principais), Pullover Articulado (dorsal + redondo maior).
 - Novos campos por exercício: `technical_validation` (separado de `reviewed`, que continua false), `pending_kinds`, `visibility_notes`.
 - v1.0.0 permanece intacta.
+
+## v1.0.2
+- Pullover e Pullover Articulado: decisão do usuário aplicada (sem confirmação pendente). Rosca de Punho segue provisória (flexão), pendente de confirmação.
+- `technical_validation.status` ganhou `identificacao_pendente` (mapa pronto, figura não exibida).

@@ -479,8 +479,8 @@
   "anatomy": "pronta",
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
-  "note": "Segue seu cadastro (costas principal, peito secundário). Com halter, fontes divergem: o peitoral também é muito exigido.",
-  "user_confirmation_needed": "Confirmar principal: só costas (como no cadastro) ou costas e peitoral",
+  "note": "Dorsal principal e peitoral secundário, conforme o seu cadastro (decisão do usuário).",
+  "user_confirmation_needed": "",
   "pending_kinds": []
  },
  {
@@ -498,8 +498,8 @@
   "anatomy": "pronta",
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
-  "note": "Segue seu cadastro: foco em dorsais e redondo maior; peitoral secundário.",
-  "user_confirmation_needed": "Confirmar se o peitoral deve ficar como secundário",
+  "note": "Dorsal e redondo maior principais, conforme o seu cadastro (decisão do usuário).",
+  "user_confirmation_needed": "",
   "pending_kinds": []
  },
  {
@@ -1010,7 +1010,7 @@
   "anatomy_pending_reason": "",
   "laterality": "unilateral",
   "note": "Considera flexão de punho (palma para cima). Um lado por vez.",
-  "user_confirmation_needed": "Confirmar se é flexão ou extensão de punho",
+  "user_confirmation_needed": "Confirmar se é flexão ou extensão de punho (a figura mostra flexão, provisória)",
   "pending_kinds": []
  },
  {
@@ -1025,7 +1025,7 @@
   "anatomy_pending_reason": "",
   "laterality": "bilateral",
   "note": "Considera flexão de punho (palma para cima).",
-  "user_confirmation_needed": "Confirmar se é flexão ou extensão de punho",
+  "user_confirmation_needed": "Confirmar se é flexão ou extensão de punho (a figura mostra flexão, provisória)",
   "pending_kinds": []
  },
  {
